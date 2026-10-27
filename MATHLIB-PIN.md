@@ -9,9 +9,10 @@ independent reproducibility and has no DOI.
 |---|---|
 | Lean toolchain | `leanprover/lean4:v4.36.0-rc1` (see `projects/AIClimateFoodSecurity/lean-toolchain`) |
 | Mathlib checkout | `f9894516e15785af295d7a14e4760b61e67a6d8e` (EconLean workspace `mathlib4-master`, clean worktree) |
-| QuantEcon.py | `0.11.4` (see `requirements.txt`) |
 
-The Mathlib checkout is the EconLean workspace version, which includes
+The numerical illustration's QuantEcon.py 0.11.4 pin is in the paper's
+supplementary package; this Lean-only repository does not include it. The
+Mathlib checkout is the EconLean workspace version, which includes
 MathEconLib integration commits; it is **not** a standard upstream Mathlib
 clone. A reader cannot rebuild the Lean module from this repository alone
 without that checkout.

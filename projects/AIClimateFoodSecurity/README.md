@@ -84,9 +84,11 @@ so it builds offline. Do not run `lake update` while `.lake/packages` is linked.
   argmax definitions. A two-state parametric example proves the actual selected
   optima are strictly separated in both directions: the gross-output benchmark
   chooses `a=1` and over-adopts, the net-income benchmark chooses `a=2/3` and
-  under-adopts (paper-level FOC), and the farmer's optimum differs from both
-  (`a=2/3`: `E[Y]=8/9`, `U=41/300`, `E[N]=1/6`; `a=1`: `E[Y]=3/2`,
-  `U=-129/800`). This is an objective benchmark, not a voluntary equilibrium.
+  under-adopts (paper-level FOC), and the farmer's optimum differs from both.
+  At the net-income benchmark (`a=2/3`): `E[Y]=8/9`, `U=41/300`, `E[N]=1/6`;
+  at the gross-output benchmark (`a=1`): `E[Y]=3/2`, `U=-129/800`; the farmer's
+  optimum is approximately `0.671`. This is an objective benchmark, not a
+  voluntary equilibrium.
 - T10 gives a single-crossing result: if `ES(b) < ES(a)`, a higher shortfall
   weight cannot reverse a preference for `b`. The implied price
   `(E[N](a)-E[N](b))/(ES(a)-ES(b))` is a diagnostic, not a primitive condition;
@@ -104,7 +106,8 @@ so it builds offline. Do not run `lake update` while `.lake/packages` is linked.
   term (`63/800`) dominates the net-income loss (`9/400`).
 - Scope note: A4 (AI lowers climate sensitivity), A8 (no insurance/trade), and
   A10 (representative farmer) are explicit benchmark assumptions, not empirical
-  findings. The artifact does not claim real-world AI effects or a full food-security outcome.
+  findings. The artifact does not claim real-world AI effects or a full
+  food-security outcome.
 
 ## Layout
 
