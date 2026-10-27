@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it and the accompanying paper."
+title: "What Formalization and Internal Review Changed: A Case Study in Subsistence-Risk Adoption"
+url: "https://github.com/AgrEconLab/AIClimateFoodSecurity"
+authors:
+  - name: "EconLean contributors"
+date-released: "2026-10-25"
+version: "0.7.0"
+abstract: >-
+  A methodology case study of a Lean 4 formalization of a subsistence-risk
+  technology-adoption model. The paper documents what machine-checking changed
+  in the claim set (characterizations, identities, argmax accounting, and
+  examples), maps prose assumptions to their Lean encodings, and proposes a
+  formalization-delta protocol. The artifact contains the Lean 4 formalization,
+  the farmer and benchmark problems, two two-state examples, a
+  binding-liquidity variant, and a numerical illustration.
+keywords:
+  - AI adoption
+  - climate risk
+  - food security
+  - subsistence income risk
+  - Lean 4
+  - formal verification
+  - benchmark
+  - QuantEcon
+  - policy simulation
+license: "Apache-2.0"

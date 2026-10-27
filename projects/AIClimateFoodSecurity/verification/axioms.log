@@ -1,0 +1,191 @@
+'AIClimateFoodSecurity.Model.continuous_yield' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.continuous_net' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.continuous_shortfall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.continuous_objective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.isCompact_feasibleSetAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.feasibleSetAt_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.feasibleSet_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.feasibleSetAt_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.exists_optimalAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.exists_optimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.optimalAdoptionAt_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.optimalAdoptionAt_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.optimalAdoption_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.optimalAdoption_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.optimalValueAt_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.continuous_expectedYield' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.expectedYield_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.expectedYield_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.exists_plannerOptimalAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.plannerAdoptionAt_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.plannerAdoptionAt_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.plannerAdoption_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.plannerAdoption_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.planner_farmer_weak_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.plannerWelfareLoss_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.planner_farmer_strict_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.expectedNet_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.objective_eq_expectedNet_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.objectiveWith_lam' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.farmer_preference_single_crossing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.continuous_expectedNet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.exists_netPlannerOptimalAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.netPlannerAdoptionAt_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.netPlannerAdoptionAt_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.netPlannerAdoption_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.netPlannerAdoption_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.netPlanner_farmer_weak_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.farmer_prefers_low_shortfall_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.farmer_prefers_low_shortfall_iff_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.netPlanner_strict_farmer_separation_of_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_feasible_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_feasible_two_thirds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedYield_two_thirds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedYield_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_objective_two_thirds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_objective_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_feasible_67' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_objective_two_thirds_lt_67' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_conflict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedYield_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedNet_two_thirds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedNet_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedNet_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedNet_le_two_thirds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedNet_lt_two_thirds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_netPlannerAdoption_eq_two_thirds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedYield_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_expectedYield_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_plannerAdoption_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_optimalAdoption_ne_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.example_strict_planner_farmer_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_optimalAdoption_ne_two_thirds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.example_netPlanner_strict_farmer_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_objective_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedYield_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_expectedYield_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedYield_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedYield_lt_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_plannerAdoption_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedNet_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_expectedNet_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedNet_le_three_quarters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedNet_lt_three_quarters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_netPlannerAdoption_eq_three_quarters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_shortfall_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_shortfall_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_objective_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_objective_le_nine_tenths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_objective_lt_nine_tenths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_optimalAdoption_eq_nine_tenths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_values_three_quarters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_values_nine_tenths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_values_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_strict_planner_farmer_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_netPlanner_strict_farmer_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedShortfall_three_quarters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_expectedShortfall_nine_tenths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_farmer_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_threshold_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_binding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_le_four_fifths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.riskExample_objective_four_fifths_sub' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_objective_le_four_fifths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_objective_lt_four_fifths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_optimalAdoption_eq_four_fifths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_binding_at_optimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_netPlannerAdoption_eq_three_quarters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_plannerAdoption_eq_four_fifths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_planner_eq_farmer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.riskExampleTight_netPlanner_strict_farmer_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AIClimateFoodSecurity.Model.yield_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.net_mono_of_cost_condition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.cost_condition_of_net_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.shortfall_anti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.expectedShortfall_anti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.shortageProb_anti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.objective_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.objective_mono_of_net_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIClimateFoodSecurity.Model.expectedShortfall_pos_of_shortfall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

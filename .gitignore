@@ -1,0 +1,9 @@
+.lake/
+logs/
+__pycache__/
+*.pyc
+.venv/
+*.olean
+*.ilean
+*.trace
+.DS_Store
